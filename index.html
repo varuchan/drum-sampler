@@ -4,12 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Drum Sampler</title>
 	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 	<div class="keys">
 		<div data-key="65" class="key">
 			<kbd>A</kbd>
-			<span class="sound">clap</span>
+			<span class="sound">snare</span>
 		</div>
 		<div data-key="83" class="key">
 			<kbd>S</kbd>
@@ -19,10 +20,17 @@
 			<kbd>D</kbd>
 			<span class="sound">hi-hat</span>
 		</div>
-		<div data-key="78" class="key">
+		<div data-key="70" class="key">
 			<kbd>F</kbd>
 			<span class="sound">tom</span>
 		</div>
 	</div>
+
+	<audio data-key="65" src="sounds/snare_11.wav"></audio>
+	<audio data-key="83" src="sounds/kick_01.wav"></audio>
+	<audio data-key="68" src="sounds/hi-hat_01.wav"></audio>
+	<audio data-key="70" src="sounds/tom_04.wav"></audio>
+
+
 </body>
 </html>
